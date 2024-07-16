@@ -13,6 +13,8 @@ for(let i = 0; i < sectionsToHide.length; i++) {
     })
 }
 
+let viaggi = document.querySelectorAll('img:not(header img, #recensioni img)');
+
 
 const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
 const appendAlert = (message, type) => {
@@ -28,5 +30,5 @@ const appendAlert = (message, type) => {
 }
 
 window.addEventListener('load', () => {
-    appendAlert('There are 8 trips showed!', 'info')
+    appendAlert(`There are ${viaggi.length} trips showed!`, 'info')
   })
