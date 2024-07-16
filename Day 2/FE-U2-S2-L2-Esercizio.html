@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="sticky-top">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
                 <div class="row">
@@ -31,19 +31,19 @@
                                     <a class="nav-link active text-secondary" aria-current="page" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active text-secondary" aria-current="page" href="#">Saldi</a>
+                                    <a class="nav-link active text-secondary" aria-current="page" href="#saldi">Saldi</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active text-secondary" aria-current="page" href="#">Welcome
+                                    <a class="nav-link active text-secondary" aria-current="page" href="#welcomeSummer">Welcome
                                         summer</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active text-secondary" aria-current="page" href="#">Last
+                                    <a class="nav-link active text-secondary" aria-current="page" href="#offertaGiorno">Last
                                         Minute</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active text-secondary" aria-current="page"
-                                        href="#">Recensioni</a>
+                                        href="#recensioni">Recensioni</a>
                                 </li>
 
                             </ul>
@@ -87,11 +87,11 @@
                         <h3>Saldi</h3>
                     </div>
                     <div class="col text-end">
-                        <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Nascondi
+                        <p><a class="link-offset-2 link-underline link-underline-opacity-0 hide" href="javascript:void(0)">Nascondi
                                 sezione</a></p>
                     </div>
                 </div>
-                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3 rowHide">
                     <div class="col">
                         <div class="card border border-info border-2">
                             <img src="https://placedog.net/200" class="card-img-top w-100" alt="...">
@@ -122,7 +122,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col d-md-none d-lg-block">
                         <div class="card border border-info border-2">
                             <img src="https://placedog.net/200" class="card-img-top w-100" alt="...">
                             <div class="card-body">
@@ -142,11 +142,11 @@
                         <h3>Welcome summer</h3>
                     </div>
                     <div class="col-5 text-end">
-                        <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Nascondi
+                        <p><a class="link-offset-2 link-underline link-underline-opacity-0 hide" href="javascript:void(0)">Nascondi
                                 sezione</a></p>
                     </div>
                 </div>
-                <div class="row row-cols-2 row-cols-lg-3 g-3">
+                <div class="row row-cols-2 row-cols-lg-3 g-3 rowHide">
                     <div class="col">
                         <div class="card border shadow-lg position-relative">
                             <span class="position-absolute top-0 end-0 badge rounded-pill bg-danger">
@@ -323,6 +323,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        <script src="assets/js/script.js"></script>
 </body>
 
 </html>
