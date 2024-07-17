@@ -1,41 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banner</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <header class="bg-primary d-flex justify-content-between p-block-md">
+    <header class="bg-primary d-flex justify-content-between p-lg">
         <div id="logo">
             <h3 class="titleMid text-secondary">SASS</h3>
         </div>
         <nav class="d-flex style-none align-center">
             <ul class="d-flex style-none align-center">
-                <li class="px-inline-xs"><a href="javascript:void(0)">Home</a></li>
-                <li class="px-inline-xs"><a href="javascript:void(0)">About</a></li>
-                <li class="px-inline-xs"><a href="javascript:void(0)">Servizi</a></li>
+                <li class="px-xs"><a href="javascript:void(0)">Home</a></li>
+                <li class="px-xs"><a href="javascript:void(0)">About</a></li>
+                <li class="px-xs"><a href="javascript:void(0)">Servizi</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="hero" class="bg-primary p-block-xl">
-            <img src="https://placedog.net/300/300" alt="Dog" class="float-right mx-inline-xl my-block-md img1">
-            <h1 class="titleBig text-secondary p-block-md">Sviluppo e Web Design</h1>
-            <p class="p-block-md">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus culpa id voluptatibus impedit voluptatem porro! Neque vero fugit laudantium odio quam tenetur consequuntur, doloribus iusto sequi! Ipsam impedit corrupti cumque!</p>
-            <div id="buttons" class="px-block-md py-block-lg">
-                <button class="button-1">Scopri di più</button>
-                <button class="button-2">Accedi</button>
-                <button class="button-3">Contattaci</button>
-            </div>    
+        <section id="hero" class="bg-primary px-xxl py-lg">
+            <img src="https://placedog.net/300/300" alt="Dog" class="float-right mx-xxl my-lg img1">
+            <div id="heading">
+                <h1 class="titleBig text-secondary mb-sm">Sviluppo e Web Design</h1>
+                <p class="mb-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus culpa id
+                    voluptatibus impedit voluptatem porro! Neque vero fugit laudantium odio quam tenetur consequuntur,
+                    doloribus iusto sequi! Ipsam impedit corrupti cumque!</p>
+                <div id="buttons" class="mb-lg">
+                    <button class="button-1">Scopri di più</button>
+                    <button class="button-2">Accedi</button>
+                    <button class="button-3">Contattaci</button>
+                </div>
+            </div>
         </section>
-        <section id="bannerImg" class="clearFloat d-flex justify-content-center ">
-            <img src="https://placedog.net/200/200" alt="Dog" class="m-inline-lg img2">
-            <img src="https://placedog.net/200/200" alt="Dog" class="m-inline-lg img2">
-            <img src="https://placedog.net/200/200" alt="Dog" class="m-inline-lg img2">
-            <img src="https://placedog.net/200/200" alt="Dog" class="m-inline-lg img2">
+        <section id="bannerImg" class="clearFloat ">
+            <div class="flex">
+            <div>
+                <img src="https://placedog.net/200/200" alt="Dog" class="m-lg img2">
+            </div>    
+            <div>
+                <img src="https://placedog.net/200/200" alt="Dog" class="m-lg img2">
+            </div>    
+            <div>
+                <img src="https://placedog.net/200/200" alt="Dog" class="m-lg img2">
+            </div>    
+            <div>
+                <img src="https://placedog.net/200/200" alt="Dog" class="m-lg img2">
+            </div>    
+            
+        </div>    
         </section>
     </main>
 </body>
+
 </html>

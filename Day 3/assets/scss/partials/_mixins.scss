@@ -18,3 +18,42 @@ $xl: 2.5rem;
 .img2 {
     @include float($sm)
 }
+
+@mixin grid ($elementNumber) {
+    display: flex;
+    flex-wrap: wrap;
+    div {
+        display: flex;
+        flex-basis: calc(100% / $elementNumber);
+        justify-content: center;
+    }
+}
+
+.flex {
+    @include grid(4);
+}
+
+@mixin animation {
+    @keyframes mostra {
+        0% {
+            opacity: 0;
+            transform: translateY(-100px);
+        }
+      /*   50% {
+            opacity: 0.3;
+            transform: translateY(-50px);
+        } */
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+
+    animation: mostra 2s ease 0s 1;
+}
+
+#hero {
+    img, div {
+        @include animation;
+    }
+}

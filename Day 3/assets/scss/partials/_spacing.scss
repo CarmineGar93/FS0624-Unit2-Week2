@@ -1,69 +1,84 @@
-$names: 'block', 'inline';
+$names: 't', 'b' , 's', 'e', 'x', 'y', 'all';
 
 $sizes-map: (
     xs: 0.5rem,
     sm: 0.8rem,
     md: 1rem,
     lg: 2rem,
-    xl: 2.5rem,
+    xl: 3rem,
+    xxl: 4rem,
 );
 
 @each $breakpoint, $value in $sizes-map {
     @each $name in $names {
-        .m-#{$name}-#{$breakpoint} {
-            margin: $value;
-        }
+        @if $name == 't' {
+            .m#{$name}-#{$breakpoint} {
+                margin-top: $value;
+            }            
+        } @else if $name == 'b' {
+            .m#{$name}-#{$breakpoint} {
+                margin-bottom: $value;
+            }        
+        } @else if $name == 's' {
+            .m#{$name}-#{$breakpoint} {
+                margin-left: $value;
+            }
+        } @else if $name == 'e' {
+            .m#{$name}-#{$breakpoint} {
+                margin-right: $value;
+            }
+        } @else if $name == 'x' {
+            .m#{$name}-#{$breakpoint} {
+                margin-right: $value;
+                margin-left: $value;
+            }
+        } @else if $name == 'y' {
+            .m#{$name}-#{$breakpoint} {
+                margin-top: $value;
+                margin-bottom: $value;
+            }
+        } @else {
+            .m-#{$breakpoint} {
+                margin: $value;                
+            }
+        }                                
     }
-   
 }
 
 @each $breakpoint, $value in $sizes-map {
     @each $name in $names {
-        .p-#{$name}-#{$breakpoint} {
-            padding: $value;
-        }
+        @if $name == 't' {
+            .p#{$name}-#{$breakpoint} {
+                padding-top: $value;
+            }            
+        } @else if $name == 'b' {
+            .p#{$name}-#{$breakpoint} {
+                padding-bottom: $value;
+            }        
+        } @else if $name == 's' {
+            .p#{$name}-#{$breakpoint} {
+                padding-left: $value;
+            }
+        } @else if $name == 'e' {
+            .p#{$name}-#{$breakpoint} {
+                padding-right: $value;
+            }
+        } @else if $name == 'x' {
+            .p#{$name}-#{$breakpoint} {
+                padding-right: $value;
+                padding-left: $value;
+            }
+        } @else if $name == 'y' {
+            .p#{$name}-#{$breakpoint} {
+                padding-top: $value;
+                padding-bottom: $value;
+            }
+        } @else {
+            .p-#{$breakpoint} {
+                padding: $value;                
+            }
+        }                                
     }
-   
-}
-
-@each $breakpoint, $value in $sizes-map {
-    @each $name in $names {
-        .px-#{$name}-#{$breakpoint} {
-            padding-right: $value;
-            padding-left: $value;
-        }
-    }
-   
-}
-
-@each $breakpoint, $value in $sizes-map {
-    @each $name in $names {
-        .mx-#{$name}-#{$breakpoint} {
-            margin-right: $value;
-            margin-left: $value;
-        }
-    }
-   
-}
-
-@each $breakpoint, $value in $sizes-map {
-    @each $name in $names {
-        .py-#{$name}-#{$breakpoint} {
-            padding-top: $value;
-            padding-bottom: $value;
-        }
-    }
-   
-}
-
-@each $breakpoint, $value in $sizes-map {
-    @each $name in $names {
-        .my-#{$name}-#{$breakpoint} {
-            margin-top: $value;
-            margin-bottom: $value;
-        }
-    }
-   
 }
 
 .d-flex {
