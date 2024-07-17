@@ -1,0 +1,30 @@
+@mixin fontInterpolation($property, $value) {
+    font-#{$property}: $value;
+}
+
+* {
+    @include fontInterpolation("family", "Arial");
+}
+
+$font-size-base: 1em;
+
+$hxs: $font-size-base;
+$hsm: $font-size-base * 1.5;
+$hmd: $font-size-base * 2;
+$hlg: $font-size-base * 3;
+$hxl: $font-size-base * 4;
+
+@mixin title ($size) {
+    @include fontInterpolation("weight", bold);
+    @include fontInterpolation("size", $size);
+    
+}
+
+.titleBig {
+    @include title ($hxl);
+    
+}
+
+.titleMid {
+    @include title($hmd);
+}

@@ -1,0 +1,16 @@
+$color-text: #f4f4f4;
+$button-colors: #0e6cff, #ff8700, #4caf50;
+$bg-color-hero: #640fc5;
+$headings-color: #28064F;
+
+* {
+    color: $color-text;
+}
+
+.text-secondary {
+    color: $headings-color;
+}
+
+.bg-primary {
+    background-color: $bg-color-hero;
+}

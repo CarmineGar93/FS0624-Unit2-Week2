@@ -1,0 +1,6 @@
+@each $color in $button-colors {
+    $index: index($button-colors, $color);
+    .button-#{$index} {
+        background-color: $color;
+    }
+}

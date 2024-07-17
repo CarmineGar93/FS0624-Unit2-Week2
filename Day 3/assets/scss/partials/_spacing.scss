@@ -1,0 +1,95 @@
+$names: 'block', 'inline';
+
+$sizes-map: (
+    xs: 0.5rem,
+    sm: 0.8rem,
+    md: 1rem,
+    lg: 2rem,
+    xl: 2.5rem,
+);
+
+@each $breakpoint, $value in $sizes-map {
+    @each $name in $names {
+        .m-#{$name}-#{$breakpoint} {
+            margin: $value;
+        }
+    }
+   
+}
+
+@each $breakpoint, $value in $sizes-map {
+    @each $name in $names {
+        .p-#{$name}-#{$breakpoint} {
+            padding: $value;
+        }
+    }
+   
+}
+
+@each $breakpoint, $value in $sizes-map {
+    @each $name in $names {
+        .px-#{$name}-#{$breakpoint} {
+            padding: 0 $value;
+        }
+    }
+   
+}
+
+@each $breakpoint, $value in $sizes-map {
+    @each $name in $names {
+        .mx-#{$name}-#{$breakpoint} {
+            margin: 0 $value;
+        }
+    }
+   
+}
+
+@each $breakpoint, $value in $sizes-map {
+    @each $name in $names {
+        .py-#{$name}-#{$breakpoint} {
+            padding: $value 0;
+        }
+    }
+   
+}
+
+@each $breakpoint, $value in $sizes-map {
+    @each $name in $names {
+        .my-#{$name}-#{$breakpoint} {
+            margin: $value 0;
+        }
+    }
+   
+}
+
+.d-flex {
+    display: flex;
+}
+
+.float-right {
+    float: right;
+}
+
+.clearFloat {
+    clear: both;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.style-none {
+    list-style-type: none;
+}

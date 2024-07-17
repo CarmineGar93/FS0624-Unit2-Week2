@@ -1,0 +1,345 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
+* {
+  color: #f4f4f4;
+}
+
+.text-secondary {
+  color: #28064F;
+}
+
+.bg-primary {
+  background-color: #640fc5;
+}
+
+* {
+  font-family: "Arial";
+}
+
+.titleBig {
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.titleMid {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.m-block-xs {
+  margin: 0.5rem;
+}
+
+.m-inline-xs {
+  margin: 0.5rem;
+}
+
+.m-block-sm {
+  margin: 0.8rem;
+}
+
+.m-inline-sm {
+  margin: 0.8rem;
+}
+
+.m-block-md {
+  margin: 1rem;
+}
+
+.m-inline-md {
+  margin: 1rem;
+}
+
+.m-block-lg {
+  margin: 2rem;
+}
+
+.m-inline-lg {
+  margin: 2rem;
+}
+
+.m-block-xl {
+  margin: 2.5rem;
+}
+
+.m-inline-xl {
+  margin: 2.5rem;
+}
+
+.p-block-xs {
+  padding: 0.5rem;
+}
+
+.p-inline-xs {
+  padding: 0.5rem;
+}
+
+.p-block-sm {
+  padding: 0.8rem;
+}
+
+.p-inline-sm {
+  padding: 0.8rem;
+}
+
+.p-block-md {
+  padding: 1rem;
+}
+
+.p-inline-md {
+  padding: 1rem;
+}
+
+.p-block-lg {
+  padding: 2rem;
+}
+
+.p-inline-lg {
+  padding: 2rem;
+}
+
+.p-block-xl {
+  padding: 2.5rem;
+}
+
+.p-inline-xl {
+  padding: 2.5rem;
+}
+
+.px-block-xs {
+  padding: 0 0.5rem;
+}
+
+.px-inline-xs {
+  padding: 0 0.5rem;
+}
+
+.px-block-sm {
+  padding: 0 0.8rem;
+}
+
+.px-inline-sm {
+  padding: 0 0.8rem;
+}
+
+.px-block-md {
+  padding: 0 1rem;
+}
+
+.px-inline-md {
+  padding: 0 1rem;
+}
+
+.px-block-lg {
+  padding: 0 2rem;
+}
+
+.px-inline-lg {
+  padding: 0 2rem;
+}
+
+.px-block-xl {
+  padding: 0 2.5rem;
+}
+
+.px-inline-xl {
+  padding: 0 2.5rem;
+}
+
+.mx-block-xs {
+  margin: 0 0.5rem;
+}
+
+.mx-inline-xs {
+  margin: 0 0.5rem;
+}
+
+.mx-block-sm {
+  margin: 0 0.8rem;
+}
+
+.mx-inline-sm {
+  margin: 0 0.8rem;
+}
+
+.mx-block-md {
+  margin: 0 1rem;
+}
+
+.mx-inline-md {
+  margin: 0 1rem;
+}
+
+.mx-block-lg {
+  margin: 0 2rem;
+}
+
+.mx-inline-lg {
+  margin: 0 2rem;
+}
+
+.mx-block-xl {
+  margin: 0 2.5rem;
+}
+
+.mx-inline-xl {
+  margin: 0 2.5rem;
+}
+
+.py-block-xs {
+  padding: 0.5rem 0;
+}
+
+.py-inline-xs {
+  padding: 0.5rem 0;
+}
+
+.py-block-sm {
+  padding: 0.8rem 0;
+}
+
+.py-inline-sm {
+  padding: 0.8rem 0;
+}
+
+.py-block-md {
+  padding: 1rem 0;
+}
+
+.py-inline-md {
+  padding: 1rem 0;
+}
+
+.py-block-lg {
+  padding: 2rem 0;
+}
+
+.py-inline-lg {
+  padding: 2rem 0;
+}
+
+.py-block-xl {
+  padding: 2.5rem 0;
+}
+
+.py-inline-xl {
+  padding: 2.5rem 0;
+}
+
+.my-block-xs {
+  margin: 0.5rem 0;
+}
+
+.my-inline-xs {
+  margin: 0.5rem 0;
+}
+
+.my-block-sm {
+  margin: 0.8rem 0;
+}
+
+.my-inline-sm {
+  margin: 0.8rem 0;
+}
+
+.my-block-md {
+  margin: 1rem 0;
+}
+
+.my-inline-md {
+  margin: 1rem 0;
+}
+
+.my-block-lg {
+  margin: 2rem 0;
+}
+
+.my-inline-lg {
+  margin: 2rem 0;
+}
+
+.my-block-xl {
+  margin: 2.5rem 0;
+}
+
+.my-inline-xl {
+  margin: 2.5rem 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearFloat {
+  clear: both;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.style-none {
+  list-style-type: none;
+}
+
+.button-1 {
+  background-color: #0e6cff;
+}
+
+.button-2 {
+  background-color: #ff8700;
+}
+
+.button-3 {
+  background-color: #4caf50;
+}/*# sourceMappingURL=style.css.map */
