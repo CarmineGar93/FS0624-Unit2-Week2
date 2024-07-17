@@ -29,7 +29,8 @@ $sizes-map: (
 @each $breakpoint, $value in $sizes-map {
     @each $name in $names {
         .px-#{$name}-#{$breakpoint} {
-            padding: 0 $value;
+            padding-right: $value;
+            padding-left: $value;
         }
     }
    
@@ -38,7 +39,8 @@ $sizes-map: (
 @each $breakpoint, $value in $sizes-map {
     @each $name in $names {
         .mx-#{$name}-#{$breakpoint} {
-            margin: 0 $value;
+            margin-right: $value;
+            margin-left: $value;
         }
     }
    
@@ -47,7 +49,8 @@ $sizes-map: (
 @each $breakpoint, $value in $sizes-map {
     @each $name in $names {
         .py-#{$name}-#{$breakpoint} {
-            padding: $value 0;
+            padding-top: $value;
+            padding-bottom: $value;
         }
     }
    
@@ -56,7 +59,8 @@ $sizes-map: (
 @each $breakpoint, $value in $sizes-map {
     @each $name in $names {
         .my-#{$name}-#{$breakpoint} {
-            margin: $value 0;
+            margin-top: $value;
+            margin-bottom: $value;
         }
     }
    

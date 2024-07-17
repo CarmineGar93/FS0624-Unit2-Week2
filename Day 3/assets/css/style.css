@@ -141,163 +141,203 @@ body {
 }
 
 .px-block-xs {
-  padding: 0 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .px-inline-xs {
-  padding: 0 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .px-block-sm {
-  padding: 0 0.8rem;
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
 }
 
 .px-inline-sm {
-  padding: 0 0.8rem;
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
 }
 
 .px-block-md {
-  padding: 0 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .px-inline-md {
-  padding: 0 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .px-block-lg {
-  padding: 0 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 .px-inline-lg {
-  padding: 0 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 .px-block-xl {
-  padding: 0 2.5rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
 }
 
 .px-inline-xl {
-  padding: 0 2.5rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
 }
 
 .mx-block-xs {
-  margin: 0 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .mx-inline-xs {
-  margin: 0 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .mx-block-sm {
-  margin: 0 0.8rem;
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
 }
 
 .mx-inline-sm {
-  margin: 0 0.8rem;
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
 }
 
 .mx-block-md {
-  margin: 0 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .mx-inline-md {
-  margin: 0 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .mx-block-lg {
-  margin: 0 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .mx-inline-lg {
-  margin: 0 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .mx-block-xl {
-  margin: 0 2.5rem;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
 }
 
 .mx-inline-xl {
-  margin: 0 2.5rem;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
 }
 
 .py-block-xs {
-  padding: 0.5rem 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .py-inline-xs {
-  padding: 0.5rem 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .py-block-sm {
-  padding: 0.8rem 0;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
 }
 
 .py-inline-sm {
-  padding: 0.8rem 0;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
 }
 
 .py-block-md {
-  padding: 1rem 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .py-inline-md {
-  padding: 1rem 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .py-block-lg {
-  padding: 2rem 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .py-inline-lg {
-  padding: 2rem 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .py-block-xl {
-  padding: 2.5rem 0;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-inline-xl {
-  padding: 2.5rem 0;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .my-block-xs {
-  margin: 0.5rem 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .my-inline-xs {
-  margin: 0.5rem 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .my-block-sm {
-  margin: 0.8rem 0;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
 }
 
 .my-inline-sm {
-  margin: 0.8rem 0;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
 }
 
 .my-block-md {
-  margin: 1rem 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .my-inline-md {
-  margin: 1rem 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .my-block-lg {
-  margin: 2rem 0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .my-inline-lg {
-  margin: 2rem 0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .my-block-xl {
-  margin: 2.5rem 0;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .my-inline-xl {
-  margin: 2.5rem 0;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .d-flex {
