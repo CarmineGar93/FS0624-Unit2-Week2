@@ -334,12 +334,33 @@ body {
 
 .button-1 {
   background-color: #0e6cff;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
 }
 
 .button-2 {
   background-color: #ff8700;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
 }
 
 .button-3 {
   background-color: #4caf50;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+}
+
+.img1 {
+  border-radius: 1rem;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+  border: 1px solid lightgray;
+}
+
+.img2 {
+  border-radius: 0.8rem;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+  border: 1px solid lightgray;
 }/*# sourceMappingURL=style.css.map */

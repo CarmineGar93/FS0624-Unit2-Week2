@@ -2,5 +2,8 @@
     $index: index($button-colors, $color);
     .button-#{$index} {
         background-color: $color;
+        border: none;
+        padding: 0.5em 1em;
+        border-radius: 0.5em;
     }
 }
