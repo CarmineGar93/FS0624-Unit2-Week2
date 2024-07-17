@@ -13,7 +13,20 @@ for(let i = 0; i < sectionsToHide.length; i++) {
     })
 }
 
+
+let viaggiDis = [];
+let elemento
 let viaggi = document.querySelectorAll('img:not(header img, #recensioni img)');
+for (let i = 0; i < viaggi.length; i++) {
+  elemento = viaggi[i].parentNode;
+  let stile = window.getComputedStyle(elemento);
+  let display = stile.display;
+  if (display !== 'none') {
+    viaggiDis.push(viaggi[i]);
+  }
+}
+
+
 
 
 const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
@@ -30,5 +43,35 @@ const appendAlert = (message, type) => {
 }
 
 window.addEventListener('load', () => {
-    appendAlert(`There are ${viaggi.length} trips showed!`, 'info')
+    appendAlert(`There are ${viaggiDis.length} trips showed!`, 'info')
   })
+
+
+  const exampleModal = document.getElementById('exampleModal')
+if (exampleModal) {
+  exampleModal.addEventListener('show.bs.modal', event => {
+    // Button that triggered the modal
+    const button = event.relatedTarget
+    // Extract info from data-bs-* attributes
+    const recipient = button.getAttribute('data-bs-whatever')
+    // If necessary, you could initiate an Ajax request here
+    // and then do the updating in a callback.
+
+    // Update the modal's content.
+    const modalTitle = exampleModal.querySelector('.modal-title')
+    const modalBodyInput = exampleModal.querySelector('.modal-body input')
+
+    modalTitle.textContent = `New message to ${recipient}`
+    modalBodyInput.value = recipient
+  })
+}
+
+
+let welcomeCards = document.querySelectorAll('#welcomeSummer .card')
+let span = document.createElement('span');
+  span.classList.add('position-absolute', 'top-0', 'end-0', 'badge', 'rounded-pill', 'bg-danger');
+  span.innerText = 'HOT';
+for (let i = 0; i < welcomeCards.length; i++) {
+  welcomeCards[i].appendChild(span);
+}
+

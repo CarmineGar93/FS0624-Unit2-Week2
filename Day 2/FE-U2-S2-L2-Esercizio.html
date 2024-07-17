@@ -31,14 +31,17 @@
                                     <a class="nav-link active text-secondary" aria-current="page" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active text-secondary" aria-current="page" href="#saldi">Saldi</a>
+                                    <a class="nav-link active text-secondary" aria-current="page"
+                                        href="#saldi">Saldi</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active text-secondary" aria-current="page" href="#welcomeSummer">Welcome
+                                    <a class="nav-link active text-secondary" aria-current="page"
+                                        href="#welcomeSummer">Welcome
                                         summer</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active text-secondary" aria-current="page" href="#offertaGiorno">Last
+                                    <a class="nav-link active text-secondary" aria-current="page"
+                                        href="#offertaGiorno">Last
                                         Minute</a>
                                 </li>
                                 <li class="nav-item">
@@ -61,15 +64,40 @@
         </nav>
     </header>
     <main>
-        
-        
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <section>
             <div class="container my-5">
                 <div class="row justify-content-center mb-4">
                     <div class="col-12">
                         <div id="liveAlertPlaceholder"></div>
                     </div>
-                </div>    
+                </div>
                 <div class="row">
                     <div class="col bg-body-tertiary text-secondary border shadow px-5 py-4">
                         <div class="row">
@@ -94,7 +122,8 @@
                         <h3>Saldi</h3>
                     </div>
                     <div class="col text-end">
-                        <p><a class="link-offset-2 link-underline link-underline-opacity-0 hide" href="javascript:void(0)">Nascondi
+                        <p><a class="link-offset-2 link-underline link-underline-opacity-0 hide"
+                                href="javascript:void(0)">Nascondi
                                 sezione</a></p>
                     </div>
                 </div>
@@ -104,7 +133,8 @@
                             <img src="https://placedog.net/200" class="card-img-top w-100" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Titolo</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, mollitia accusamus.</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+                                    mollitia accusamus.</p>
                                 <a href="#" class="btn btn-info">Prenota</a>
                             </div>
                         </div>
@@ -114,7 +144,8 @@
                             <img src="https://placedog.net/200" class="card-img-top w-100" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Titolo</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, mollitia accusamus.</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+                                    mollitia accusamus.</p>
                                 <a href="#" class="btn btn-info">Prenota</a>
                             </div>
                         </div>
@@ -124,7 +155,8 @@
                             <img src="https://placedog.net/200" class="card-img-top w-100" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Titolo</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, mollitia accusamus.</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+                                    mollitia accusamus.</p>
                                 <a href="#" class="btn btn-info">Prenota</a>
                             </div>
                         </div>
@@ -134,7 +166,8 @@
                             <img src="https://placedog.net/200" class="card-img-top w-100" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Titolo</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, mollitia accusamus.</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+                                    mollitia accusamus.</p>
                                 <a href="#" class="btn btn-info">Prenota</a>
                             </div>
                         </div>
@@ -149,79 +182,82 @@
                         <h3>Welcome summer</h3>
                     </div>
                     <div class="col-5 text-end">
-                        <p><a class="link-offset-2 link-underline link-underline-opacity-0 hide" href="javascript:void(0)">Nascondi
+                        <p><a class="link-offset-2 link-underline link-underline-opacity-0 hide"
+                                href="javascript:void(0)">Nascondi
                                 sezione</a></p>
                     </div>
                 </div>
                 <div class="row row-cols-2 row-cols-lg-3 g-3 rowHide">
                     <div class="col">
                         <div class="card border shadow-lg position-relative">
-                            <span class="position-absolute top-0 end-0 badge rounded-pill bg-danger">
-                                HOT</span>
+                           
                             <img src="https://placedog.net/200" class="card-img-top w-100" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Titolo</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, mollitia accusamus.</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+                                    mollitia accusamus.</p>
                                 <a href="#" class="btn btn-info">Prenota</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card border shadow-lg">
-                            <span class="position-absolute top-0 end-0 badge rounded-pill bg-danger">
-                                HOT</span>
+                           
                             <img src="https://placedog.net/200" class="card-img-top w-100" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Titolo</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, mollitia accusamus.</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+                                    mollitia accusamus.</p>
                                 <a href="#" class="btn btn-info">Prenota</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card border shadow-lg">
-                            <span class="position-absolute top-0 end-0 badge rounded-pill bg-danger">
-                                HOT</span>
+                           
                             <img src="https://placedog.net/200" class="card-img-top w-100" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Titolo</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, mollitia accusamus.</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+                                    mollitia accusamus.</p>
                                 <a href="#" class="btn btn-info">Prenota</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card border shadow-lg">
-                            <span class="position-absolute top-0 end-0 badge rounded-pill bg-danger">
-                                HOT</span>
+                            
                             <img src="https://placedog.net/200" class="card-img-top w-100" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Titolo</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, mollitia accusamus.</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+                                    mollitia accusamus.</p>
+                                <a href="#" class="btn btn-info">Prenota</a>
+                                <span class="position-absolute top-0 end-0 badge rounded-pill bg-danger">
+                                    HOT</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border shadow-lg">
+                           
+                            <img src="https://placedog.net/200" class="card-img-top w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Titolo</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+                                    mollitia accusamus.</p>
                                 <a href="#" class="btn btn-info">Prenota</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card border shadow-lg">
-                            <span class="position-absolute top-0 end-0 badge rounded-pill bg-danger">
-                                HOT</span>
+                           
                             <img src="https://placedog.net/200" class="card-img-top w-100" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Titolo</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, mollitia accusamus.</p>
-                                <a href="#" class="btn btn-info">Prenota</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card border shadow-lg">
-                            <span class="position-absolute top-0 end-0 badge rounded-pill bg-danger">
-                                HOT</span>
-                            <img src="https://placedog.net/200" class="card-img-top w-100" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Titolo</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, mollitia accusamus.</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+                                    mollitia accusamus.</p>
                                 <a href="#" class="btn btn-info">Prenota</a>
                             </div>
                         </div>
@@ -276,7 +312,7 @@
                         <img src="https://placedog.net/200" class="w-100 rounded shadow-sm">
                     </div>
                 </div>
-            </div>        
+            </div>
         </article>
         <aside id="recensioni">
             <div class="container mb-5">
@@ -287,29 +323,38 @@
                 </div>
                 <div class="row">
                     <div class="col-3 col-sm-2 col-lg-1">
-                        <img src="https://placedog.net/100/100" class="rounded-circle border border-2 border-info w-100">
+                        <img src="https://placedog.net/100/100"
+                            class="rounded-circle border border-2 border-info w-100">
                     </div>
                     <div class="col-9 col-sm-10 col-lg-11">
                         <h5>Username</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur molestias quas hic? Voluptate aspernatur explicabo aliquid similique quos fugiat veniam consequuntur autem maiores aut in, laborum dicta facilis exercitationem eligendi!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur molestias quas hic?
+                            Voluptate aspernatur explicabo aliquid similique quos fugiat veniam consequuntur autem
+                            maiores aut in, laborum dicta facilis exercitationem eligendi!</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-3 col-sm-2 col-lg-1">
-                        <img src="https://placedog.net/100/100" class="rounded-circle border border-2 border-info w-100">
+                        <img src="https://placedog.net/100/100"
+                            class="rounded-circle border border-2 border-info w-100">
                     </div>
                     <div class="col-9 col-sm-10 col-lg-11">
                         <h5>Username</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur molestias quas hic? Voluptate aspernatur explicabo aliquid similique quos fugiat veniam consequuntur autem maiores aut in, laborum dicta facilis exercitationem eligendi!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur molestias quas hic?
+                            Voluptate aspernatur explicabo aliquid similique quos fugiat veniam consequuntur autem
+                            maiores aut in, laborum dicta facilis exercitationem eligendi!</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-3 col-sm-2 col-lg-1">
-                        <img src="https://placedog.net/100/100" class="rounded-circle border border-2 border-info w-100">
+                        <img src="https://placedog.net/100/100"
+                            class="rounded-circle border border-2 border-info w-100">
                     </div>
                     <div class="col-9 col-sm-10 col-lg-11">
                         <h5>Username</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur molestias quas hic? Voluptate aspernatur explicabo aliquid similique quos fugiat veniam consequuntur autem maiores aut in, laborum dicta facilis exercitationem eligendi!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur molestias quas hic?
+                            Voluptate aspernatur explicabo aliquid similique quos fugiat veniam consequuntur autem
+                            maiores aut in, laborum dicta facilis exercitationem eligendi!</p>
                     </div>
                 </div>
             </div>
@@ -319,7 +364,8 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col-12 text-center my-3">
-                    <button type="button" class="btn btn-outline-secondary">Contattaci</button>
+                    <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" data-bs-whatever="carmygargiulo45@gmail.com">Contattaci</button>
                 </div>
                 <div class="col-12 text-center">
                     <p class="text-light">&copy 2024 Gargiulo Travel LTD.All Rights Reserved.</p>
@@ -330,7 +376,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-        <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
