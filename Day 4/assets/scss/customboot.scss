@@ -1,2 +1,14 @@
 @import "functions";
 @import "variables";
+
+
+$new-primary: #7550FE;
+$circle-background: #FFEEDA;
+
+$new-theme-colors: (
+    'primary': $new-primary,
+    'circlebg': $circle-background,
+);
+
+$theme-colors: map-merge($theme-colors, $new-theme-colors);
+@import 'bootstrap.scss';
