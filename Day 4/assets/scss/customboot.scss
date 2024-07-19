@@ -1,9 +1,12 @@
 @import "functions";
 @import "variables";
 
+$font-family-sans-serif: 'Helvetica', sans-serif;
 
 $new-primary: #7550FE;
 $circle-background: #FFEEDA;
+
+
 
 $new-theme-colors: (
     'primary': $new-primary,
